@@ -15,5 +15,10 @@
             "email": "ebsp@ageras.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "AgeraAps\\EpayLib\\": "src/"
+        }
+    },
     "minimum-stability": "dev"
 }
