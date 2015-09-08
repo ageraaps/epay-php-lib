@@ -16,9 +16,9 @@
         }
     ],
     "autoload": {
-        "psr-4": {
-            "AgeraAps\\EpayLib\\": "src/"
-        }
+        "classmap": [
+            "src/"
+        ]
     },
     "minimum-stability": "dev"
 }
